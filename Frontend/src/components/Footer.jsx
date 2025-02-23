@@ -1,11 +1,11 @@
-import React from 'react';
+// import React from 'react';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
 
 function Footer() {
   return (
     <div>
       <footer className="bg-zinc-800 text-white py-12 px-6 md:px-12 rounded-t-full">
-        <div className="ml-52 grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center md:text-left">
           <div>
             <h3 className="text-xl font-bold mb-4">ThriveU</h3>
             <p className="text-gray-400">Transforming Education, Transforming You.</p>
@@ -37,7 +37,7 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="flex justify-center gap-4 mt-6">
+        <div className="flex justify-center gap-4 mt-6 flex-wrap items-center">
           <a href="#" className="text-gray-400 hover:text-blue-500" aria-label="Facebook">
             <FaFacebookF size={24} />
           </a>
